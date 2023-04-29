@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import logoHeader from "./../public/assets/logo_place_header.png";
 import NavHeader from "./NavBar";
-import headerImage from "./../public/assets/header-image.png"
+import headerImage from "./../public/assets/header-image.png";
 
 export default function Header() {
   return (
@@ -49,6 +49,7 @@ export default function Header() {
           position: "absolute",
           bottom: "30px",
           left: "64px",
+          width: "388px",
         }}
       >
         As técnicas de aprendizado mais eficazes que você pode aplicar ao seu
@@ -69,12 +70,23 @@ export default function Header() {
         width={756}
         height={608}
         style={{
-          position: 'absolute',
-          right: '0px',
-          bottom: '0px',
-          zIndex: '1'
+          position: "absolute",
+          right: "0px",
+          top: "10px",
+          bottom: "0px",
+          zIndex: "1",
         }}
       ></Image>
+      <div
+        style={{
+          width: "568px",
+          height: "568px",
+          backgroundColor: "#2F80ED",
+          position: "absolute",
+          right: "0",
+          top: "64px",
+        }}
+      ></div>
     </div>
   );
 }
