@@ -26,7 +26,13 @@ export default function StaticsSection() {
         Sobre o cérebro e o aprendizado
       </h2>
       <div style={{
-        width: '1100px'
+        width: '1100px',
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'space-between',
+        margin: '0',
+        paddingTop: '60px',
+        rowGap: '60px'
       }}>
         <StaticsBlock
           title="86 bilhoes"
