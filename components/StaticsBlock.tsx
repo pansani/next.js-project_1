@@ -19,7 +19,7 @@ export default function StaticsBlock(props: {
       >
         {props.title}
       </h1>
-      ;
+        
       <p
         style={{
           paddingTop: "20px",
