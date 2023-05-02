@@ -30,15 +30,27 @@ export default function Feynman() {
       >
         A tecnica de Feynman
       </h1>
+      <h2
+        style={{
+          lineHeight: "51px",
+          fontSize: "36px",
+          fontWeight: "normal",
+          textAlign: "center",
+          position: "absolute",
+          zIndex: 1,
+          top: "45%",
+        }}
+      >
+        Aprender sem esquecer
+      </h2>
       <h2 style={{
-        lineHeight: '51px',
-        fontSize: "36px",
-        fontWeight: "normal",
-        textAlign: "center",
-        position: "absolute",
-        zIndex: 1,
-        top: '45%',
-      }}>Aprender sem esquecer</h2>
+        fontSize: '30px',
+        position: 'absolute',
+        right: '20px',
+        display: "flex",
+        top: '300px',
+        color: '#2F80ED'
+      }}>Mais→</h2>
     </div>
   );
 }
