@@ -3,6 +3,7 @@ import SecondSection from "@component/components/SecondSection";
 import StaticsSection from "@component/components/StaticsSection";
 import Feynman from "@component/components/FeynmanSection";
 import Kaufman from "@component/components/KaufmanSection";
+import Footer from "@component/components/Footer";
 
 export default function Home() {
   return (
@@ -10,14 +11,17 @@ export default function Home() {
       <>
         <>
           <>
-            <Header></Header>
-            <SecondSection></SecondSection>
+            <>
+              <Header></Header>
+              <SecondSection></SecondSection>
+            </>
+            <StaticsSection></StaticsSection>
           </>
-          <StaticsSection></StaticsSection>
+          <Feynman></Feynman>
         </>
-        <Feynman></Feynman>
+        <Kaufman></Kaufman>
       </>
-      <Kaufman></Kaufman>
+      <Footer></Footer>
     </>
   );
 }

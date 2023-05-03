@@ -13,7 +13,7 @@ export default function StaticsBlock(props: {
       <h1
         style={{
           lineHeight: "1.15",
-          fontSize: "24px",
+          fontSize: "28px",
           fontWeight: "bold",
         }}
       >
@@ -24,7 +24,7 @@ export default function StaticsBlock(props: {
         style={{
           paddingTop: "20px",
           lineHeight: "1.2",
-          fontSize: "14px",
+          fontSize: "20px",
           fontWeight: "normal",
         }}
       >

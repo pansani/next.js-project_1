@@ -1,5 +1,4 @@
 import React from "react";
-import feynmanImage from "./../public/assets/feynman.png";
 
 export default function Feynman() {
   return (
@@ -21,7 +20,7 @@ export default function Feynman() {
         style={{
           width: "775px",
           lineHeight: 1.15,
-          fontSize: "120px",
+          fontSize: "130px",
           fontWeight: "bold",
           textAlign: "center",
           position: "absolute",
@@ -33,7 +32,7 @@ export default function Feynman() {
       <h2
         style={{
           lineHeight: "51px",
-          fontSize: "36px",
+          fontSize: "40px",
           fontWeight: "normal",
           textAlign: "center",
           position: "absolute",
